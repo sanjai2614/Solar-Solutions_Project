@@ -4,7 +4,9 @@
     font-family: "Titillium Web", sans-serif;
     font-weight: 400;
     font-style: normal;
-   overflow: visible red;
+}
+button:hover{
+    cursor: pointer;
 }
 
 header {
@@ -385,6 +387,8 @@ header .im2{
     position: absolute;
     top: 0%;
     z-index: 4;
+    overflow: hidden;
+
 }
 .learnmore{
     position: absolute;
@@ -471,6 +475,8 @@ height: 400px;
     object-fit: cover;
 }
 .backshield{
+    overflow: hidden;
+
     position: absolute;
     z-index: 0;
     background-color: #c4b35c;
@@ -520,11 +526,17 @@ input{
     width: 600px;
     border: none;
     border-bottom: 3px solid black;
+    &:focus{
+        outline: none;
+    }
 }
 textarea{
     height: 100px;
     border: none;
     border-bottom: 3px solid black;
+    &:focus{
+        outline: none;
+    }
 }
 .checkbox{
     width: 20px;
@@ -549,6 +561,9 @@ textarea{
     font-size: large;
     align-self: center;
     border-bottom: none;
+    &:hover{
+        cursor: pointer;
+    }
 }
 .formspan{
     color: #ad9621;
@@ -950,6 +965,8 @@ header .im2{
     position: absolute;
     top: 0%;
     z-index: 4;
+    overflow: hidden;
+
 }
 .learnmore{
     position: absolute;
@@ -1045,7 +1062,9 @@ height: 300px;
     width: 80%;
     height: 850px;
     top: 250px;
-    left: 10%
+    left: 10%;
+    overflow: hidden;
+
     
 }
 .ourproject button{
@@ -1088,11 +1107,17 @@ input{
     width: auto;
     border: none;
     border-bottom: 3px solid black;
+    &:focus{
+        outline: none;
+    }
 }
 textarea{
     height: 100px;
     border: none;
     border-bottom: 3px solid black;
+    &:focus{
+        outline: none;
+    }
 }
 .checkbox{
     width: 20px;
@@ -1513,6 +1538,8 @@ header .im2{
     position: absolute;
     top: 0%;
     z-index: 4;
+    overflow: hidden;
+
 }
 .learnmore{
     position: absolute;
@@ -1611,7 +1638,9 @@ height: 300px;
     width: 80%;
     height: 850px;
     top: 250px;
-    left: 10%
+    left: 10%;
+    overflow: hidden;
+
     
 }
 .ourproject button{
@@ -1654,11 +1683,17 @@ input{
     width: auto;
     border: none;
     border-bottom: 3px solid black;
+    &:focus{
+        outline: none;
+    }
 }
 textarea{
     height: 100px;
     border: none;
     border-bottom: 3px solid black;
+    &:focus{
+        outline: none;
+    }
 }
 .checkbox{
     width: 20px;
@@ -2076,6 +2111,8 @@ header .im2{
     position: absolute;
     top: 0%;
     z-index: 4;
+    overflow: hidden;
+
 }
 .learnmore{
     position: absolute;
@@ -2174,7 +2211,9 @@ height: 300px;
     width: 80%;
     height: 850px;
     top: 250px;
-    left: 10%
+    left: 10%;
+    overflow: hidden;
+
     
 }
 .ourproject button{
@@ -2217,11 +2256,17 @@ input{
     width: auto;
     border: none;
     border-bottom: 3px solid black;
+    &:focus{
+        outline: none;
+    }
 }
 textarea{
     height: 100px;
     border: none;
     border-bottom: 3px solid black;
+    &:focus{
+        outline: none;
+    }
 }
 .checkbox{
     width: 20px;
