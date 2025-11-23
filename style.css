@@ -55,6 +55,7 @@ header .im2{
     flex-wrap: wrap;
     width: 70%;
     align-self: center;
+    gap: 20px;
 }
 
 .container1 svg {
@@ -633,6 +634,7 @@ header .im2{
     flex-wrap: wrap;
     width: 70%;
     align-self: center;
+    gap: 20px;
 }
 
 .container1 svg {
@@ -1212,6 +1214,7 @@ header .im2{
     flex-wrap: wrap;
     width: 70%;
     align-self: center;
+    gap: 20px;
 }
 
 .container1 svg {
@@ -1758,6 +1761,7 @@ header .im2{
     height: 100%;
     width: 100%;
     background-size: cover;
+    
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -1765,10 +1769,10 @@ header .im2{
 
 .head h1 {
     color: white;
-    font-size: 60px;
+    font-size: 40px;
     text-align: center;
     padding: 122px 0px 0px;
-    width: 50%;
+    width: 70%;
     align-self: center;
 }
 
@@ -1785,6 +1789,7 @@ header .im2{
     flex-wrap: wrap;
     width: 70%;
     align-self: center;
+    gap: 20px;
 }
 
 .container1 svg {
@@ -1919,14 +1924,14 @@ header .im2{
 
 .widebutton {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     gap: 20px;
 }
 
 .wideimg h1 {
-    width: 75%;
-    font-size: 60px;
+    width: 100%;
+    font-size: 40px;
     align-self: center;
     text-align: center;
 }
@@ -1934,13 +1939,14 @@ header .im2{
 .widebutton1 {
     color: white;
     background: none;
-    padding: 10px 30px;
+    padding: 20px;
     border-radius: 20px;
     border: 1px solid white;
+    
 }
 
 .widebutton2 {
-    padding: 10px 30px;
+    padding: 20px;
     border-radius: 20px;
     border: none;
 }
@@ -1966,7 +1972,7 @@ header .im2{
 }
 
 .widenexttext h1 {
-    font-size: 60px;
+    font-size: 36px;
     display: flex;
     align-self: center;
 }
@@ -2162,7 +2168,7 @@ height: 300px;
 }
 
 .solarbenefits h1{
-    font-size: 60px;
+    font-size: 36px;
     text-align: center;
 }
 .solarbenefits li{
@@ -2171,6 +2177,7 @@ height: 300px;
     list-style: none;
 }
 .ourproject{
+    padding-top: 20px;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -2179,7 +2186,7 @@ height: 300px;
     text-align: center;
 }
 .ourproject h1{
-    font-size: 60px;
+    font-size: 36px;
 }
 .ourproject p{
     width: 75%;
@@ -2247,7 +2254,7 @@ form{
     gap: 20px;
 }
 .lastone h1{
-    font-size: 60px;
+    font-size: 36px;
     text-align: center;
     
 }
